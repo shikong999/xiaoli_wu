@@ -1,5 +1,6 @@
 package com.wu.wucheng.xiaoli_wu;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
     private SharedPreferences sharedPreferences;
     private static final String tag = MainActivity.class.getSimpleName();
 
+    @SuppressLint("WrongConstant")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
