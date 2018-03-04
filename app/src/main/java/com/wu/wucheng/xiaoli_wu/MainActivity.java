@@ -23,7 +23,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener {
-
+    //测试git
     {//加入finish列表
         SysExitUtil.activityList.add(this);
     }
