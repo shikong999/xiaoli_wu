@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3F3F3"
+    tools:context="com.wu.wucheng.xiaoli_wu.fragments.Qingligonglve">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#DF1334"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <SearchView
+            android:id="@+id/qingligonglve_search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+             />
+
+        <RadioGroup
+            android:id="@+id/qingligonglve_daohang"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/qingligonglve_zuijin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="方案"
+                android:textColor="@drawable/wodekaquan_daohang_text_color"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/qingligonglve_jingpin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="故事"
+                android:textColor="@drawable/wodekaquan_daohang_text_color"
+                android:textSize="15sp" />
+        </RadioGroup>
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/qingligonglve_viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

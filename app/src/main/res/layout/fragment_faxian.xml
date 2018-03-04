@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3"
+    android:orientation="vertical"
+    tools:context="com.wu.wucheng.xiaoli_wu.fragments.Faxian">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#DF1334"
+        android:gravity="center"
+        android:text="发现"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <ListView android:id="@+id/faxian_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        >
+    </ListView>
+</LinearLayout>

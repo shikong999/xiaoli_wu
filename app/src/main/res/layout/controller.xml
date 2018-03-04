@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#E8E7EC"
+    android:orientation="horizontal">
+
+    <RadioGroup
+        android:id="@+id/controller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/controller_guanxiguanli"
+            android:drawableTop="@drawable/controller_guanxiguanli"
+            android:text="@string/controller_guanxiguanli"
+            android:checked="true"
+            style="@style/controllerStyle" />
+
+        <RadioButton
+            android:id="@+id/controller_qingligonglve"
+            android:drawableTop="@drawable/controller_qingligonglve"
+            android:text="@string/controller_qingligonglve"
+            style="@style/controllerStyle" />
+
+        <RadioButton
+            android:id="@+id/controller_faxian"
+            android:drawableTop="@drawable/controller_faxian"
+            android:text="@string/controller_faxian"
+            style="@style/controllerStyle" />
+
+        <RadioButton
+            android:id="@+id/controller_wode"
+            android:drawableTop="@drawable/controller_wode"
+            android:text="@string/controller_wode"
+            style="@style/controllerStyle" />
+    </RadioGroup>
+</LinearLayout>

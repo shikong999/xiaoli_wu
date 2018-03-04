@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wu.wucheng.xiaoli_wu.faxian.Wodekaquan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#DF1334"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/wodekaquan_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/icon_back" />
+
+        <RadioGroup
+            android:id="@+id/wodekaquan_daohang"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/wodekaquan_wode"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="我的卡券"
+                android:textColor="@drawable/wodekaquan_daohang_text_color"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/wodekaquan_lishi"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="历史卡券"
+                android:textColor="@drawable/wodekaquan_daohang_text_color"
+                android:textSize="15sp" />
+        </RadioGroup>
+    </LinearLayout>
+<android.support.v4.view.ViewPager
+    android:id="@+id/wodekaquan_viewpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</android.support.v4.view.ViewPager>
+</LinearLayout>

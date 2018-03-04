@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:visibility="gone"
+    android:orientation="horizontal">
+    <Button android:id="@+id/qinglitixing_add_repeat_no"
+        android:layout_width="65dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginLeft="13dp"
+        android:layout_height="40dp"
+        android:text="不重复"
+        android:layout_gravity="center"
+        android:background="@drawable/button_yuanjiao_red"
+        android:textColor="#ffffff"/>
+
+    <Button android:id="@+id/qinglitixing_add_repeat_year"
+        android:layout_width="65dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_height="40dp"
+        android:text="每年"
+        android:layout_gravity="center"
+        android:background="@drawable/button_yuanjiao_red"
+        android:textColor="#ffffff"/>
+    <Button android:id="@+id/qinglitixing_add_repeat_month"
+        android:layout_width="65dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_height="40dp"
+        android:text="每月"
+        android:layout_gravity="center"
+        android:background="@drawable/button_yuanjiao_red"
+        android:textColor="#ffffff"/>
+
+    <Button android:id="@+id/qinglitixing_add_repeat_week"
+        android:layout_width="65dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_height="40dp"
+        android:text="每周"
+        android:layout_gravity="center"
+        android:background="@drawable/button_yuanjiao_red"
+        android:textColor="#ffffff"/>
+    <Button android:id="@+id/qinglitixing_add_repeat_day"
+        android:layout_width="65dp"
+        android:layout_marginLeft="1dp"
+        android:layout_height="40dp"
+        android:text="每日"
+        android:layout_gravity="center"
+        android:background="@drawable/button_yuanjiao_red"
+        android:textColor="#ffffff"/>
+</LinearLayout>
