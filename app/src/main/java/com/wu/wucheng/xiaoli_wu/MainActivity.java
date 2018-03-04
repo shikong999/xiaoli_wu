@@ -1,6 +1,6 @@
 package com.wu.wucheng.xiaoli_wu;
 
-import android.annotation.SuppressLint;
+import android.annotation.SuppressLint;//修复
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
